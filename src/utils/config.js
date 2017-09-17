@@ -2,12 +2,12 @@ const API1 = '/api/v1'
 const API2 = '/api/v2'
 
 module.export = {
-  name: '',
-  prefix: '',
-  footerText: '',
+  name: 'Yijian Manager',
+  prefix: 'yijianManager',
+  footerText: 'yijian org Admin © 2017 working',
   logo: '/logo.png',
-  iconFontCSS: '',
-  iconFontJS: '',
+  iconFontCSS: '/iconfont.css',
+  iconFontJS: 'iconfont.js',
   CORS: [],
   openPages: ['/login'],
   apiPrefix: '/api/v1',

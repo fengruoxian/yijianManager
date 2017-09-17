@@ -1,5 +1,5 @@
 const path = require('path')
-const {version} = require('./package.json')
+const { version } = require('./package.json')
 
 const svgSpriteDirs = [
   path.resolve(__dirname, 'src/svg/'),
@@ -41,9 +41,9 @@ export default {
 
     }
   },
- /* dllPlugin: {
+  dllPlugin: {
     exclude: ["babel-runtime"],
     include: ["dva/router", "dva/saga", "dva/fetch"]
-  }*/
+  }
 }
 

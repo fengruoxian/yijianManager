@@ -36,7 +36,7 @@ module.exports = (webpackConfig, env) => {
     ]),
     new HtmlWebpackPlugin({
       hash: true,
-      mobie: true,
+      mobile: true,
       title: 'yijian',
       inject: false,
       appMountId: 'root',
